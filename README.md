@@ -1,6 +1,6 @@
 # Princeton University Art Museum API Documentation
 
-The Princeton University Art Museum API is a REST-style service designed to provide developer access to data about the Museum and it's collection. This API
+The Princeton University Art Museum API is a REST-style service designed to provide developer access to data about the Museum and it's collection.
 
 ## Access
 
