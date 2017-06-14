@@ -4,11 +4,11 @@ Contains information describing the objects in the Princeton University Art Muse
 
 ## Get single object by ID
 
-`GET /object/[id]`
+`GET /objects/[id]`
 
 #### Example
 
-> http://api.artmuseum.princeton.edu/object/25277
+> http://api.artmuseum.princeton.edu/objects/25277
 
 #### Response
 
