@@ -1,8 +1,8 @@
-# Object
+# Objects
 
-Contains information pertaining to objects in the Princeton University Art Museum's collection
+Contains information describing the objects in the Princeton University Art Museum's collection.
 
-## Get object by ID
+## Get single object by ID
 
 `GET /object/[id]`
 
@@ -226,7 +226,7 @@ Boolean indicating whether the object has an image or not.
 **inscribed**  
 A string describing any inscriptions on the object.
 
-**makers**
+**makers**  
 Describes the artists, cultures, and other entities involved in the creation of the object.
 
 `datebegin` - Integer expressing the earliest date the entity existed (birth date in the case of an individual).  
@@ -256,7 +256,7 @@ A list of images and other media representing or associated with the object. Not
 A string describing the materials and processes used to create the object.
 
 **objectid**  
-The Museum's numeric unique machine-readable identifier for the object.
+The Museum's numeric unique machine-readable identifier for the object. Note that by appending this id to the url string [http://artmuseum.princeton.edu/collections/objects/](http://artmuseum.princeton.edu/collections/objects/) one can also construct a link to the object's page in the Museum's online collection.  
 
 **objectnumber**  
 The museum's internal identifier for the object, most commonly expressed as a combination of a four-digit year and various prefixes/suffixes meant to indicate characteristics about the object. In the museum lexicon this is also commonly referred to as an accession number, however loans and other objects not formally accessioned by the Museum receive these numbers as well.
