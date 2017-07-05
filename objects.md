@@ -160,7 +160,7 @@ Contains information describing the objects in the Princeton University Art Muse
 
 ```
 
-Encompassed within this response is the full public catalog record for this object as determined by the Museum's research and documentation. While many of the fields in the response are self-explanatory as to what they convey, what follows is a description of each with some notes for better understanding and using the data.
+Encompassed within the object response is the full public catalog record for this object as determined by the Museum's research and documentation. While many of the fields in the response are self-explanatory as to what they convey, what follows is a description of each with some notes for better understanding and using the data.
 
 **accessionyear**  
 Four-digit year indicating the year the object was acquired by the museum.
@@ -289,3 +289,64 @@ A listing of titles of the work and information about their origin and intended 
 `displayorder` - The order in which this title should be displayed relative to any others.  
 `title` - The title.  
 `titletype` - A string describing the nature of the title. "Primary title" is by far the most common value, though others can include "Translation" or "Title of Origin."
+
+## Get object tombstone by ID
+
+`GET /objects/[id]/tombstone`
+
+#### Example
+
+> http://api.artmuseum.princeton.edu/objects/25277/tombstone
+
+#### Response
+
+```json
+
+{
+  "displaymaker": "Paul Cézanne, French, 1839–1906",
+  "objectnumber": "L.1988.62.54",
+  "creditline": "The Henry and Rose Pearlman Foundation on long term loan to the Princeton University Art Museum",
+  "displaydate": "1886–88",
+  "primaryimage": "http://puam-loris.aws.princeton.edu/loris/L1988-62-54_REC.jp2",
+  "medium": "Pencil",
+  "displaytitle": "Study of Trees",
+  "objectid": 25277,
+  "dimensions": "48.3 x 31.7 cm. (19 x 12 1/2 in.)"
+}
+
+```
+
+The tombstone response offers a much simplified subset of the full object record, suitable for situations in which only the basic data needed to identify the object is required.
+
+## Get multiple objects
+
+`GET /objects?[param]=[value]`
+
+In order to facilitate the retrieval of multiple objects, select criteria have been exposed as parameters. A multi-object response consists of all object records that match the selected criteria as a list object.
+
+Available parameters are:  
+
+- maker (ID)
+- department (Exact Name)
+- term (ID)
+
+#### Example
+
+> http://api.artmuseum.princeton.edu/objects?maker=6353
+
+Additional query parameters can be appended to any multi-record request to control filtering, sorting, and pagination of results. The available query parameters are:
+
+`size` - establishes the maximum number of records to be retrieved at once (integer, defaults to 10, up to a maximum of 500).  
+`from` - offset position of the first result to be retrieved which can effectively be used to paginate through large result sets via multiple repeated requests (integer, defaults to 0)  
+`sort` - field on which to sort results (field name, defaults to Lucene query score)  
+`sortorder` - order in which to sort results ('ASC' or 'DESC', defaults to DESC)  
+
+#### Example
+
+> http://api.artmuseum.princeton.edu/objects?maker=6353&sort=ObjectID&sortorder=ASC
+
+## Get all objects
+
+Records for the entire collection can be retrieved by not specifying an endpoint. 
+
+> http://api.artmuseum.princeton.edu/objects/
