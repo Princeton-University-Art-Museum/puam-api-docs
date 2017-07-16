@@ -8,7 +8,7 @@ Contains information describing the objects in the Princeton University Art Muse
 
 #### Example
 
-> http://api.artmuseum.princeton.edu/objects/25277
+> http://data.artmuseum.princeton.edu/objects/25277
 
 #### Response
 
@@ -296,7 +296,7 @@ A listing of titles of the work and information about their origin and intended 
 
 #### Example
 
-> http://api.artmuseum.princeton.edu/objects/25277/tombstone
+> http://data.artmuseum.princeton.edu/objects/25277/tombstone
 
 #### Response
 
@@ -332,7 +332,7 @@ Available parameters are:
 
 #### Example
 
-> http://api.artmuseum.princeton.edu/objects?maker=6353
+> http://data.artmuseum.princeton.edu/objects?maker=6353
 
 Additional query parameters can be appended to any multi-record request to control filtering, sorting, and pagination of results. The available query parameters are:
 
@@ -343,10 +343,10 @@ Additional query parameters can be appended to any multi-record request to contr
 
 #### Example
 
-> http://api.artmuseum.princeton.edu/objects?maker=6353&sort=ObjectID&sortorder=ASC
+> http://data.artmuseum.princeton.edu/objects?maker=6353&sort=ObjectID&sortorder=ASC
 
 ## Get all objects
 
-Records for the entire collection can be retrieved by not specifying an endpoint. 
+Records for the entire collection can be retrieved by not specifying an endpoint.
 
-> http://api.artmuseum.princeton.edu/objects/
+> http://data.artmuseum.princeton.edu/objects/
