@@ -8,7 +8,7 @@ Contains information describing artists, cultural groups, and other makers of ob
 
 #### Example
 
-> http://api.artmuseum.princeton.edu/makers/6353
+> http://data.artmuseum.princeton.edu/makers/6353
 
 #### Response
 
