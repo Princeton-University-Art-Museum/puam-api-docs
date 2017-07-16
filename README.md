@@ -7,7 +7,7 @@ The Princeton University Art Museum API is a REST-style service designed to prov
 All requests to the API begin with:
 
 ```shell
-http://api.artmuseum.princeton.edu
+http://data.artmuseum.princeton.edu
 ```
 
 ## Responses and data format
