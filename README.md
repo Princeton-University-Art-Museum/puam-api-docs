@@ -165,7 +165,8 @@ All data is in [JSON](http://json.org) format. Here is a typical response:
 Currently data describing two primary resources from the Princeton University Art Museum are available via this API:
 
 * [Objects](https://github.com/danieltbrennan/puam-api-docs/blob/master/objects.md)
-* [Makers](https://github.com/danieltbrennan/puam-api-docs/blob/master/objects.md)
+* [Makers](https://github.com/danieltbrennan/puam-api-docs/blob/master/makers.md)
+* [Packages](https://github.com/danieltbrennan/puam-api-docs/blob/master/packages.md)
 
 ## Feedback and Questions
 
