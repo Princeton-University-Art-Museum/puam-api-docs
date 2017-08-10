@@ -162,11 +162,12 @@ All data is in [JSON](http://json.org) format. Here is a typical response:
 
 ## Available resources
 
-Currently data describing two primary resources from the Princeton University Art Museum are available via this API:
+Currently data describing three primary resources from the Princeton University Art Museum are available via this API, as well as a search endpoint:
 
 * [Objects](https://github.com/danieltbrennan/puam-api-docs/blob/master/objects.md)
 * [Makers](https://github.com/danieltbrennan/puam-api-docs/blob/master/makers.md)
 * [Packages](https://github.com/danieltbrennan/puam-api-docs/blob/master/packages.md)
+* [Search](https://github.com/danieltbrennan/puam-api-docs/blob/master/search.md))
 
 ## Feedback and Questions
 
