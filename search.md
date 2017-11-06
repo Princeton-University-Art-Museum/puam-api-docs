@@ -1247,7 +1247,7 @@ Valid type values are:
 
 - [artobjects](https://github.com/danieltbrennan/puam-api-docs/blob/master/objects.md)
 - [makers](https://github.com/danieltbrennan/puam-api-docs/blob/master/makers.md)
-- [packages]((https://github.com/danieltbrennan/puam-api-docs/blob/master/packages.md)
+- [packages](https://github.com/danieltbrennan/puam-api-docs/blob/master/packages.md)
 - all - This value will search across all data types
 
 Additional parameters can be appended to any search query to control filtering, sorting, and pagination of results. The available query parameters are:
