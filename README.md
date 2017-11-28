@@ -167,7 +167,7 @@ Currently three endpoints providing access to three primary resource types from 
 * [Objects](https://github.com/danieltbrennan/puam-api-docs/blob/master/objects.md)
 * [Makers](https://github.com/danieltbrennan/puam-api-docs/blob/master/makers.md)
 * [Packages](https://github.com/danieltbrennan/puam-api-docs/blob/master/packages.md)
-* [Search](https://github.com/danieltbrennan/puam-api-docs/blob/master/search.md))
+* [Search](https://github.com/danieltbrennan/puam-api-docs/blob/master/search.md)
 
 ## Feedback and Questions
 
