@@ -322,7 +322,7 @@ The tombstone response offers a much simplified subset of the full object record
 
 `GET /objects?[param]=[value]`
 
-In order to facilitate the retrieval of multiple objects, select criteria have been exposed as parameters. A multi-object response consists of all object records that match the selected criteria as a list object.
+In order to facilitate the retrieval of multiple objects, select fields have been exposed as parameters. A multi-object response consists of all object records that match the selected criteria.
 
 Available parameters are:  
 
@@ -343,10 +343,4 @@ Additional query parameters can be appended to any multi-record request to contr
 
 #### Example
 
-> http://data.artmuseum.princeton.edu/objects?maker=6353&sort=ObjectID&sortorder=ASC
-
-## Get all objects
-
-Records for the entire collection can be retrieved by not specifying an endpoint.
-
-> http://data.artmuseum.princeton.edu/objects/
+> http://data.artmuseum.princeton.edu/objects?maker=6353&sort:ObjectID&sortorder:ASC
