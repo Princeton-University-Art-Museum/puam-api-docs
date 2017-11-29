@@ -343,4 +343,4 @@ Additional query parameters can be appended to any multi-record request to contr
 
 #### Example
 
-> http://data.artmuseum.princeton.edu/objects?maker=6353&sort:ObjectID&sortorder:ASC
+> http://data.artmuseum.princeton.edu/objects?maker=6353&sort=objectid&sortorder=ASC
