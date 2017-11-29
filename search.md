@@ -8,7 +8,7 @@ Provides access to a full-text search against the Museum's data.
 
 #### Example
 
-> http://data.artmuseum.princeton.edu/search?q=blue&type:all
+> http://data.artmuseum.princeton.edu/search?q=blue&type=all
 
 #### Response
 
@@ -226,7 +226,7 @@ Provides access to a full-text search against the Museum's data.
 
 In order to facilitate searching across multiple data types, the type must be included within the query string as a parameter.
 
-> http://data.artmuseum.princeton.edu/search?q="blue"&type:artobjects
+> http://data.artmuseum.princeton.edu/search?q="blue"&type=artobjects
 
 Valid data types are:  
 
