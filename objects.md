@@ -340,7 +340,9 @@ Additional query parameters can be appended to any multi-record request to contr
 `from` - offset position of the first result to be retrieved which can effectively be used to paginate through large result sets via multiple repeated requests (integer, defaults to 0)  
 `sort` - field on which to sort results (field name, defaults to Lucene query score)  
 `sortorder` - order in which to sort results ('ASC' or 'DESC', defaults to DESC)  
+`lastupdated` - date on or after which an object's data was updated (Timestamp: YYYY-MM-DD)
 
-#### Example
+#### Examples
 
-> http://data.artmuseum.princeton.edu/objects?maker=6353&sort=objectid&sortorder=ASC
+> http://data.artmuseum.princeton.edu/objects?maker=6353&sort=objectid&sortorder=ASC  
+> https://data.artmuseum.princeton.edu/objects?lastupdated=2018-07-15&size=50&from=50
