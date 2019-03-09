@@ -8,7 +8,7 @@ Contains information describing the objects in the Princeton University Art Muse
 
 #### Example
 
-> http://data.artmuseum.princeton.edu/objects/25277
+> https://data.artmuseum.princeton.edu/objects/25277
 
 #### Response
 
@@ -332,7 +332,7 @@ Available parameters are:
 
 #### Example
 
-> http://data.artmuseum.princeton.edu/objects?maker=6353
+> https://data.artmuseum.princeton.edu/objects?maker=6353
 
 Additional query parameters can be appended to any multi-record request to control filtering, sorting, and pagination of results. The available query parameters are:
 
@@ -344,5 +344,5 @@ Additional query parameters can be appended to any multi-record request to contr
 
 #### Examples
 
-> http://data.artmuseum.princeton.edu/objects?maker=6353&sort=objectid&sortorder=ASC  
+> https://data.artmuseum.princeton.edu/objects?maker=6353&sort=objectid&sortorder=ASC  
 > https://data.artmuseum.princeton.edu/objects?lastupdated=2018-07-15&size=50&from=50
