@@ -2,6 +2,15 @@
 
 The Princeton University Art Museum API is a REST-style service designed to provide developer access to data about the Museum and its collections.
 
+## Available resources
+
+Currently three endpoints providing access to three primary resource types from the Princeton University Art Museum are available via this API, as well as a full-text search endpoint:
+
+* [Objects](https://github.com/danieltbrennan/puam-api-docs/blob/master/objects.md)
+* [Makers](https://github.com/danieltbrennan/puam-api-docs/blob/master/makers.md)
+* [Packages](https://github.com/danieltbrennan/puam-api-docs/blob/master/packages.md)
+* [Search](https://github.com/danieltbrennan/puam-api-docs/blob/master/search.md)
+
 ## Access
 
 All requests to the API begin with:
@@ -12,7 +21,7 @@ https://data.artmuseum.princeton.edu
 
 ## Responses and data format
 
-All data is in [JSON](http://json.org) format. Here is a typical response:
+All data responses are in [JSON](http://json.org) format. Here is a typical response for a single object:
 
 ```json
 {
@@ -829,15 +838,6 @@ All data is in [JSON](http://json.org) format. Here is a typical response:
   ]
 }
 ```
-
-## Available resources
-
-Currently three endpoints providing access to three primary resource types from the Princeton University Art Museum are available via this API, as well as a full-text search endpoint:
-
-* [Objects](https://github.com/danieltbrennan/puam-api-docs/blob/master/objects.md)
-* [Makers](https://github.com/danieltbrennan/puam-api-docs/blob/master/makers.md)
-* [Packages](https://github.com/danieltbrennan/puam-api-docs/blob/master/packages.md)
-* [Search](https://github.com/danieltbrennan/puam-api-docs/blob/master/search.md)
 
 ## Feedback and Questions
 
