@@ -33,7 +33,7 @@ For applications and activities such as data visualization and machine learning 
 
 ## Feedback and Questions
 
-If you have a feature request or find a bug, [please open a GitHub issue](https://github.com/danieltbrennan/puam-api-docs/issues/new).
+If you have a feature request or find a bug, [please open a GitHub issue](https://github.com/princeton-university-art-museum/puam-api-docs/issues/new).
 
 For more general inquiries regarding the API, [e-mail is preferred](mailto:dbrennan@princeton.edu).   
 
