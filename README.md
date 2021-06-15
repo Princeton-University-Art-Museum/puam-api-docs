@@ -16,10 +16,10 @@ No authentication is currently required to access the API, however this may chan
 
 Currently three endpoints providing access to three primary resource types from the Princeton University Art Museum are available via this API, as well as a full-text search endpoint:
 
-* [Objects](https://github.com/danieltbrennan/puam-api-docs/blob/master/objects.md)
-* [Makers](https://github.com/danieltbrennan/puam-api-docs/blob/master/makers.md)
-* [Packages](https://github.com/danieltbrennan/puam-api-docs/blob/master/packages.md)
-* [Search](https://github.com/danieltbrennan/puam-api-docs/blob/master/search.md)
+* [Objects](https://github.com/princeton-university-art-museum/puam-api-docs/blob/master/objects.md)
+* [Makers](https://github.com/princeton-university-art-museum/puam-api-docs/blob/master/makers.md)
+* [Packages](https://github.com/princeton-university-art-museum/puam-api-docs/blob/master/packages.md)
+* [Search](https://github.com/princeton-university-art-museum/puam-api-docs/blob/master/search.md)
 
 ## Usage Notes
 
