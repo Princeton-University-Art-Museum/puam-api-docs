@@ -35,7 +35,7 @@ For applications and activities such as data visualization and machine learning 
 
 If you have a feature request or find a bug, [please open a GitHub issue](https://github.com/princeton-university-art-museum/puam-api-docs/issues/new).
 
-For more general inquiries regarding the API, [e-mail is preferred](mailto:dbrennan@princeton.edu).   
+For more general inquiries regarding the API, [e-mail is preferred](mailto:jg4301@princeton.edu).   
 
 Finally, if you're building something interesting with the API, please reach out, we'd love to hear about it.
 
