@@ -373,8 +373,8 @@ A string describing any markings present on the object.
 A list of images and other media representing or associated with the object. Note that an object can have many media items, or none at all. The majority of the collection is represented by at least one image.
 
 `mediatypeid` - A numeric code indicating the type of media item. 1 = image.  
-`restrictions` - A string indicating any relevant restrictions on image use and display.
-`uri` - An http link that can be used to retrieve the media item. In the case of images this is the base URL to the Museum's IIIF service. IIIF Image API parameters can be appended to this url in order to retrieve a file of a specified size or of other characteristics. [Learn more about IIIF](http://iiif.io).  
+`restrictions` - A string indicating any relevant restrictions on image use and display.  
+`uri` - An http link that can be used to retrieve the media item. In the case of images this is the base URL to the Museum's IIIF service. IIIF Image API parameters can be appended to this url in order to retrieve a file of a specified size or of other characteristics. [Learn more about the IIIF API Syntax](https://iiif.io/api/image/3.0/).    
 `rank` - The sequence in which the media item should appear relative to any others.  
 `caption` - A text caption for the media item (not typically suitable for satisfying accessibility requirements).  
 `isprimary` - A boolean indicating if a particular media item is to be considered the primary media for the object. In most situations, this is the media item that should be used to represent the object visually.  
