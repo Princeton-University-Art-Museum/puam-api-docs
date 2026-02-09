@@ -8,156 +8,281 @@ Contains information describing the objects in the Princeton University Art Muse
 
 #### Example
 
-> https://data.artmuseum.princeton.edu/objects/25277
+> https://data.artmuseum.princeton.edu/objects/9449
 
 #### Response
 
 ```json
-
 {
-  "exhibitions": [
-    {
-      "isvirtual": true,
-      "exhibitionid": 1086,
-      "begindate": "1970-06-10",
-      "citation": "Impressionism, Post-Impressionism, Expressionism: The Mr. & Mrs. Henry Pearlman Collection of Works by Cézanne, Van Gogh, Degas, Tolouse-Lautrec, Manet, Modigliani, Soutine, and Others: Wadsworth Atheneum Museum of Art (10 Jun 1970 – ?)",
-      "enddate": "1970-10-04"
-    },
-    {
-      "isvirtual": true,
-      "exhibitionid": 1087,
-      "begindate": "1971-07-13",
-      "citation": "Summer Loan 1971: Paintings from New York Collections: Collection of Mr. and Mrs. Henry Pearlman and the Henry and Rose Pearlman Foundation: The Metropolitan Museum of Art (13 Jul 1971 – 7 Sep 1971)",
-      "enddate": "1971-09-07"
-    },
-    {
-      "isvirtual": true,
-      "exhibitionid": 1098,
-      "begindate": "1968-07-03",
-      "citation": "New York Collects, 1968: The Metropolitan Museum of Art (3 Jul 1968 – 2 Sep 1968)",
-      "enddate": "1968-09-02"
-    },
-    {
-      "isvirtual": true,
-      "exhibitionid": 1346,
-      "begindate": "1974-05-22",
-      "citation": "An Exhibition of Paintings, Watercolors, Sculpture and Drawings from the Collection of Mr. and Mrs. Henry Pearlman and the Henry and Rose Pearlman Foundation: Brooklyn Museum (22 May 1974 – 29 Sep 1974); Princeton University Art Museum (8 Dec 1974 – 14 Ma",
-      "enddate": "1974-09-29"
-    },
-    {
-      "isvirtual": true,
-      "exhibitionid": 1542,
-      "begindate": "1982-06-26",
-      "citation": "Paul Cézanne: The Collection of Mr. and Mrs. Henry Pearlman: Fine Arts Museums of San Francisco, California (26 Jun 1982 – 29 Aug 1982)",
-      "enddate": "1982-08-29"
-    },
-    {
-      "isvirtual": true,
-      "exhibitionid": 1541,
-      "begindate": "1986-05-02",
-      "citation": "Art of Cézanne from the Henry & Rose Pearlman Foundation: Brooklyn Museum (2 May 1986 – 14 Jul 1986)",
-      "enddate": "1986-07-14"
-    }
-  ],
-  "objectid": 25277,
-  "texts": [],
-  "accessionyear": "",
+  "type": "artobject",
+  "objectid": 9449,
+  "objectnumber": "x1954-13",
+  "sortnumber": "1954   13x",
+  "displaytitle": "Dancers",
+  "department": "Prints and Drawings",
+  "classification": "Drawings",
+  "datebegin": 1894,
+  "dateend": 1904,
+  "datecomputed": 1899,
+  "daterange": "A.D. 1850-1900",
+  "displaydate": "ca. 1899",
+  "medium": "Pastel with charcoal",
+  "dimensions": "58.8 x 46.3 cm (23 1/8 x 18 1/4 in.)\r\nframe: 79.5 x 67.3 x 6.3 cm (31 5/16 x 26 1/2 x 2 1/2 in.)",
+  "dimensionsproposed": "",
+  "creditline": "Bequest of Henry K. Dick, Class of 1909",
+  "markings": "Stamp in red ink, lower left: Degas [Lugt 658]",
+  "inscribed": null,
+  "signed": null,
+  "catalograisonne": null,
+  "creditlinerepro": "",
+  "restrictions": null,
+  "nowebuse": "False",
+  "secondaryobjectnumber": null,
+  "campuscollections": "false",
+  "on_view": true,
+  "accessionyear": "1954-01-01",
+  "newaccession": 0,
   "titles": [
     {
-      "titletype": "Primary Title",
-      "displayorder": 1,
-      "title": "Study of Trees"
+      "title": "Dancers",
+      "titletype": "Published",
+      "displayorder": 1
     }
   ],
-  "catalograisonne": "Chappuis 1973: No. 920",
   "makers": [
     {
-      "makerid": 6353,
-      "displayname": "Paul Cézanne",
-      "suffix": null,
+      "id": 5560,
+      "displayname": "Edgar Degas",
+      "displaydate": "1834–1917; born and died Paris, France",
+      "datebegin": 1834,
+      "dateend": 1917,
       "prefix": null,
-      "dateend": 1906,
-      "displaydate": "French, 1839–1906",
+      "suffix": null,
       "role": "Artist",
-      "datebegin": 1839
+      "displaymaker": "Edgar Degas, 1834–1917; born and died Paris, France",
+      "displayorder": 1
     }
   ],
-  "objectnumber": "L.1988.62.54",
+  "depicted": [],
+  "texts": [
+    {
+      "texttype": "Online",
+      "textpurpose": "Handbook Entry",
+      "textentryhtml": "\r\nPastel was Edgar Degas’s preferred medium late in his career. Inexpensive, light, and flexible, it allowed for endless technical experimentation and offered the aging artist a degree of manual control that the paintbrush could not. Crucially, pastel also allowed him to work simultaneously as a draftsman and colorist and thereby collapse the traditional academic distinction between line and color.</P>\r\nThe subject of the ballet, which Degas had pioneered in the 1870s, dominated these late works. Compared to his earlier work on the theme, however, they have been stripped of any anecdotal interest, the focus no longer on behind-the-scenes specificities of dance production or its social context. Here, Degas has eliminated nearly all background information, restricting himself to the vaguest suggestion, as if filtered through the haze of memory, of a staggered series of cutout stage flats, a convenient pretext for an abstract array of colors and linear arabesques. He zooms in on his subject, concentrating on only three dancers and representing them at three-quarter length, lending them an almost ancient monumentality and gravity in the process. Rather than illustrate a specific dance or rehearsal, the poses and gestures of which might correlate to the codified lexicon of the ballet, Degas treats his dancers as elements in an abstract pictorial configuration, flattening and compressing them into a single entity whose pinwheel array of bent arms moves to some obscure, stately rhythm. In their somnolent attentiveness to their own bodies and psychological isolation from each other and the viewer, the dancers bear a&nbsp;striking resemblance to his late bathers. </P>\r\nSuch echoes between subjects are not surprising given that Degas’s late work was overwhelmingly a private studio affair. His art became increasingly self-referential and introspective, as he traced, recycled, and altered his favorite motifs from drawing to drawing, allowing him to experiment with different compositional arrangements and color schemes. Typical of the artist’s late graphic techniques, <I>Dancers</I> began as a monochromatic charcoal drawing that he built up with as many as four or five interpenetrating layers of pastel. He applied the pastel both wet and dry, probably using fixative and steam intermittently to keep the colors pure and distinct. Evocative of the shimmering heat and artificial lighting of the theater, these highly saturated, synthetic colors were intensified through complementary, hot-and-cold contrasts, most notably between coral reds and aqua greens and between oranges and royal and powder blues. Applied in insistently vertical and diagonal striations, Degas’s pastel strokes work both to model forms and to erode the boundaries between dancers, costumes, and surrounds, so that the image appears to dissolve slowly even as it gains in material substance. Enhancing this corrosive effect, Degas also burnished areas of the pastel, forcing the medium into the interstices of the support, producing tiny pits and craters in the process. <I>Dancers</I> is both viscerally tactile and optical in its appeal, as Degas exploits to maximum effect the coarse, friable qualities of the medium, presenting a richly textured, densely fractured and accretive surface, one that appears to be the product of remote, ineluctable forces that are more geological or chemical than human. </P></SPAN>",
+      "remarks": null
+    },
+    {
+      "texttype": "Online",
+      "textpurpose": "Multivocal Label",
+      "textentryhtml": "<p>\n\tDegas’s <i>Dancers</i> depicts a gathering of people in motion, but not in performance. I am most intrigued by the faces and hands. One dancer adjusts her hair and clothing, while the others move about hurriedly—backstage happenings that many dancers know well. However universal such a moment may be, I wonder about the who, what, and where not represented here. Current conversations in the fields of dance and Black feminist studies offer exciting opportunities to engage with and build context around this drawing. While we admire Degas’s figures, we can also use scholar Marisa J. Fuentes’s method of “reading along the bias grain” to consider what concurrent nineteenth-century dance identities, traditions, and forms are omitted or hidden from view. For example, <i>Dancers</i> was completed around the time George Washington Smith (ca. 1820–1899) died. Smith was a mixed-race performer and teacher from Philadelphia, and the first prominent American male ballet master.\n</p>\n<p><b>\n\tMichael J. Love</b>, Interdisciplinary Tap Dance Artist\n</p>",
+      "remarks": "EUR2_02-05_WLA-Day 1 Cataloguing "
+    },
+    {
+      "texttype": "Online",
+      "textpurpose": "Provenance",
+      "textentryhtml": "Collection of the artist until death; [Galeries Georges Petit], Paris, &quot;Atelier Edgar Degas&quot; First Sale, May 6-8, 1918, lot 275. Purchased, probably from above sale, by\nGustave Pellet, Paris (1859–1919); his son-in-law, Maurice Exsteens (1887–1961). Henry K. Dick (1886-1953); bequeathed to Princeton University Art Museum, 1953.",
+      "remarks": null
+    }
+  ],
+  "media": [
+    {
+      "id": 15153,
+      "uri": "https://media.artmuseum.princeton.edu/iiif/3/collection/x1954-13",
+      "isprimary": 1,
+      "rank": 1,
+      "mediatypeid": 1,
+      "mediaviewtype": "(not assigned)",
+      "restrictions": null,
+      "caption": "Bruce White Photography"
+    },
+    {
+      "id": 15154,
+      "uri": "https://media.artmuseum.princeton.edu/iiif/3/collection/x1954-13_DET1",
+      "isprimary": 0,
+      "rank": 2,
+      "mediatypeid": 1,
+      "mediaviewtype": "(not assigned)",
+      "restrictions": null,
+      "caption": "Bruce White Photography"
+    },
+    {
+      "id": 15155,
+      "uri": "https://media.artmuseum.princeton.edu/iiif/3/collection/x1954-13_DET2",
+      "isprimary": 0,
+      "rank": 3,
+      "mediatypeid": 1,
+      "mediaviewtype": "(not assigned)",
+      "restrictions": null,
+      "caption": "Bruce White Photography"
+    }
+  ],
   "hasimage": "true",
   "bibliography": [
     {
-      "date": 1973,
-      "boilertext": "Adrien Chappuis, <EM>The Drawings of Paul Cézanne:&nbsp;A Catalogue Raisonné</EM> (Greenwich, Conn., 1973)"
+      "boilertext": "Jean Sutherland Boggs, <EM>Degas: [an exhibition held at the] Galeries nationales du Grand Palais, Paris, 9 February-16 May 1988, National Gallery of Canada, Ottawa, 16 June-28 August 1988, the Metropolitan Museum of Art, New York, 27 September 1988-8 January 1989</EM>, (New York: Metropolitan Museum of Art; Ottawa: National Gallery of Canada, 1988).",
+      "citation": "Jean Sutherland Boggs, <EM>Degas: [an exhibition held at the] Galeries nationales du Grand Palais, Paris, 9 February-16 May 1988, National Gallery of Canada, Ottawa, 16 June-28 August 1988, the Metropolitan Museum of Art, New York, 27 September 1988-8 January 1989</EM>, (New York: Metropolitan Museum of Art; Ottawa: National Gallery of Canada, 1988)., p. 572, no. 359 (color illus.)",
+      "date": 1988,
+      "id": 1602,
+      "uri": "https://search.worldcat.org/title/369305144"
     },
     {
-      "date": 1974,
-      "boilertext": "<I>An Exhibition of Paintings, Watercolors, Sculpture and Drawings from the Collection of Mr. and Mrs. Henry Pearlman and Henry and Rose Pearlman Foundation </I>(New York, 1974)"
+      "boilertext": "Jill DeVonyar and Richard Kendall, \"<em>Dancers</em> by Edgar Degas,\" <em>Record of the Princeton University Art Museum </em>66 (2007): p. 30-40.",
+      "citation": "Jill DeVonyar and Richard Kendall, \"<em>Dancers</em> by Edgar Degas,\" <em>Record of the Princeton University Art Museum </em>66 (2007): p. 30-40., p. 30, fig. 1; p. 37, fig. 9",
+      "date": 2007,
+      "id": 2998,
+      "uri": "https://www.jstor.org/stable/20442627"
     },
     {
-      "date": 1971,
-      "boilertext": "<I>Summer Loan 1971: Paintings from New York Collections: Collection of Mr. and Mrs. Henry Pearlman and The Henry and Rose Pearlman Foundation </I>(New York, 1971)"
+      "boilertext": "Linda Muehlig, \"The Rochester dancers: a late masterpiece\",<EM> Porticus: the journal of the Memorial Art Gallery of the University of Rochester</EM> 9 (1986): p. 2-9.",
+      "citation": "Linda Muehlig, \"The Rochester dancers: a late masterpiece\",<EM> Porticus: the journal of the Memorial Art Gallery of the University of Rochester</EM> 9 (1986): p. 2-9., p. 7, fig. 5",
+      "date": 1986,
+      "id": 5585,
+      "uri": "https://search.worldcat.org/title/435632714"
+    },
+    ...truncated
+  ],
+  "exhibitions": [
+    {
+      "exhibitionid": 1667,
+      "citation": "Degas: A New Vision, National Gallery of Victoria (June 24–September 18, 2016); The Museum of Fine Arts, Houston (October 16, 2016–January 16, 2017)",
+      "isvirtual": true,
+      "begindate": "2016-06-24",
+      "enddate": "2017-01-16",
+      "uri": "https://artmuseum.princeton.edu/art/exhibitions/1667"
     },
     {
-      "date": 1968,
-      "boilertext": "<I>New York Collects</I> (New York, 1968)"
+      "exhibitionid": 961,
+      "citation": "An Educated Eye: The Princeton University Art Museum Collection (Friday, February 22, 2008 - Sunday, June 15, 2008)",
+      "isvirtual": true,
+      "begindate": "2008-02-22",
+      "enddate": "2008-06-15",
+      "uri": "https://artmuseum.princeton.edu/art/exhibitions/961"
     },
     {
-      "date": 2002,
-      "boilertext": "Laura M. Giles and Carol Armstrong, eds.,&nbsp;<EM>Cézanne in Focus: Watercolors from the Henry and Rose Pearlman Collection</EM> (Princeton, 2002)"
+      "exhibitionid": 1033,
+      "citation": "European Drawings from Neo-Classicism to Impressionism (Tuesday, December 04, 1990 - Sunday, January 06, 1991)",
+      "isvirtual": true,
+      "begindate": "1990-12-04",
+      "enddate": "1991-01-06",
+      "uri": "https://artmuseum.princeton.edu/art/exhibitions/1033"
+    },
+    {
+      "exhibitionid": 1046,
+      "citation": "Nineteenth-Century Pastels, Drawings, Watercolors (Complement to Cezanne Exhibition) (Saturday, February 01, 1992 - Sunday, April 05, 1992)",
+      "isvirtual": true,
+      "begindate": "1992-02-01",
+      "enddate": "1992-04-05",
+      "uri": "https://artmuseum.princeton.edu/art/exhibitions/1046"
+    },
+    {
+      "exhibitionid": 732,
+      "citation": "Degas (Tuesday, February 09, 1988 - Sunday, January 08, 1989)",
+      "isvirtual": true,
+      "begindate": "1988-02-09",
+      "enddate": "1989-01-08",
+      "uri": "https://artmuseum.princeton.edu/art/exhibitions/732"
     }
   ],
-  "dimensions": "48.3 x 31.7 cm. (19 x 12 1/2 in.)",
-  "media": [
-    {
-      "mediatypeid": 1,
-      "restrictions": "Restricted",
-      "uri": "http://puam-loris.aws.princeton.edu/loris/L1988-62-54_REC.jp2",
-      "rank": 1,
-      "caption": "Bruce White Photography",
-      "isprimary": 1,
-      "id": 74665
-    },
-    {
-      "mediatypeid": 1,
-      "restrictions": "Restricted",
-      "uri": "http://puam-loris.aws.princeton.edu/loris/L1988-62-54_VER.jp2",
-      "rank": 2,
-      "caption": "Bruce White Photography",
-      "isprimary": 0,
-      "id": 74666
-    }
-  ],
-  "department": "Prints and Drawings",
   "geography": [],
-  "medium": "Pencil",
-  "terms": [],
-  "sortnumber": "1988   62L   54",
-  "creditline": "The Henry and Rose Pearlman Foundation on long term loan to the Princeton University Art Museum",
-  "creditlinerepro": "",
-  "dateend": 1888,
+  "terms": [
+    {
+      "id": 2089658,
+      "term": "ballet dancers",
+      "aatid": 300236566,
+      "termtype": "Subject"
+    },
+    {
+      "id": 2159723,
+      "term": "arabesques",
+      "aatid": 300010206,
+      "termtype": "Subject"
+    },
+    {
+      "id": 2053187,
+      "term": "pastels",
+      "aatid": 300076922,
+      "termtype": "Classification"
+    },
+    ...truncated
+  ],
+  "classifications": [
+    {
+      "id": 2053187,
+      "classification": "pastels"
+    },
+    {
+      "id": 2051964,
+      "classification": "drawings"
+    }
+  ],
+  "cultures": [],
+  "cultureterms": [
+    {
+      "id": 2031609,
+      "culture": "French"
+    }
+  ],
+  "periods": [],
+  "periodterms": [],
   "dimensionelements": [
     {
-      "units": "centimeters",
+      "element": "frame",
       "type": "Height",
-      "dimension": "48.25",
-      "element": "Overall"
+      "units": "centimeters",
+      "dimension": "79.53"
     },
     {
-      "units": "centimeters",
+      "element": "frame",
       "type": "Width",
-      "dimension": "31.74",
-      "element": "Overall"
+      "units": "centimeters",
+      "dimension": "67.30"
+    },
+    {
+      "element": "frame",
+      "type": "Depth",
+      "units": "centimeters",
+      "dimension": "6.34"
+    },
+    {
+      "element": "Overall",
+      "type": "Height",
+      "units": "centimeters",
+      "dimension": "58.80"
+    },
+    {
+      "element": "Overall",
+      "type": "Width",
+      "units": "centimeters",
+      "dimension": "46.30"
     }
   ],
-  "datebegin": 1886,
-  "displaytitle": "Study of Trees",
-  "signed": null,
-  "displaydate": "1886–88",
-  "published_date": "2017-06-11 11:46:05.571752",
-  "inscribed": null,
-  "markings": null
+  "packages": [
+    {
+      "packageid": 206417,
+      "name": "image_descriptions_top250"
+    },
+    ...truncated
+  ],
+  "primaryimage": [
+    "https://media.artmuseum.princeton.edu/iiif/3/collection/x1954-13"
+  ],
+  "displaymaker": "Edgar Degas, 1834–1917; born and died Paris, France",
+  "displayculture": null,
+  "displayperiod": null,
+  "caption": "Edgar Degas (1834–1917, born and died Paris, France), Dancers, ca. 1899. Pastel with charcoal; 58.8 x 46.3 cm, 79.5 x 67.3 x 6.3 cm (frame). Bequest of Henry K. Dick, Class of 1909 (x1954-13)",
+  "captionhtml": "Edgar Degas (1834–1917, born and died Paris, France), <i>Dancers</i>, ca. 1899. Pastel with charcoal; 58.8 x 46.3 cm, 79.5 x 67.3 x 6.3 cm (frame). Bequest of Henry K. Dick, Class of 1909 (x1954-13)",
+  "published_date": "2026-01-08 10:13:55.123063",
+  "campusart": [
+    {
+      "campuscollections": "false",
+      "campusart": 0,
+      "neighborhood": null,
+      "lat": null,
+      "lon": null
+    }
+  ],
+  "extended_content": false
 }
-
 ```
 
 Encompassed within the object response is the full public catalog record for this object as determined by the Museum's research and documentation. While many of the fields in the response are self-explanatory as to what they convey, what follows is a description of each with some notes for better understanding and using the data.
@@ -197,7 +322,7 @@ A list of values representing all available measurements for the object, represe
 `dimension` - The numeric value of the dimension.  
 `element` - The aspect of the object that the dimension represents, such as the overall measurement, the frame, etc.  
 `type` - The dimension type, such as the height or width.  
-`units` - The type of units in which the dimension is recorded, such as centimeters.  
+`units` - The type of units in which the dimension is recorded, such as centimeters.
 
 **dimensions**  
 A human-readable version of the object's dimensions, more suitable for display purposes.
@@ -215,7 +340,10 @@ A listing of museum exhibitions in which this object has been included, both at 
 `citation` - A string containing the exhibition's title, dates, and venue(s).  
 `enddate` - The date the exhibition ended.  
 `exhibitionid` - A unique identifier for the exhibition.  
-`isvirtual` - True/false indicating if the exhibition was organized by an institution other than The Princeton University Art Museum.  
+`isvirtual` - True/false indicating if the exhibition was organized by an institution other than The Princeton University Art Museum.
+
+**extended_content**
+A boolean value used to determine if the object has extended content associated with it on the website. I.e. audio, videos, article, etc.
 
 **geography**  
 A string expressing a geographic location that can be related to the object in any number of ways, but most typically the location that the object was made.
@@ -236,7 +364,7 @@ Describes the artists, cultures, and other entities involved in the creation of 
 `makerid` - A unique identifier for the entity.  
 `prefix` - A prefix indicating information relevant to this particular instance of the entity's relationship to the object, such as "After."  
 `role` - Term indicating the entity's relationship to the object, such as Artist.  
-`suffix` - A suffix indicating information relevant to this particular instance of the entity's relationship to the object.  
+`suffix` - A suffix indicating information relevant to this particular instance of the entity's relationship to the object.
 
 **markings**  
 A string describing any markings present on the object.
@@ -245,21 +373,24 @@ A string describing any markings present on the object.
 A list of images and other media representing or associated with the object. Note that an object can have many media items, or none at all. The majority of the collection is represented by at least one image.
 
 `mediatypeid` - A numeric code indicating the type of media item. 1 = image.  
-`restrictions` - A string indicating any relevant restrictions on image use and display.  
-`uri` - An http link that can be used to retrieve the media item. In the case of images this is the base URL to the Museum's IIIF service. IIIF Image API parameters can be appended to this url in order to retrieve a file of a specified size or of other characteristics. [Learn more about IIIF](http://iiif.io).    
+`restrictions` - A string indicating any relevant restrictions on image use and display.
+`uri` - An http link that can be used to retrieve the media item. In the case of images this is the base URL to the Museum's IIIF service. IIIF Image API parameters can be appended to this url in order to retrieve a file of a specified size or of other characteristics. [Learn more about IIIF](http://iiif.io).  
 `rank` - The sequence in which the media item should appear relative to any others.  
 `caption` - A text caption for the media item (not typically suitable for satisfying accessibility requirements).  
 `isprimary` - A boolean indicating if a particular media item is to be considered the primary media for the object. In most situations, this is the media item that should be used to represent the object visually.  
-`id` - A unique identifier for this media item.  
+`id` - A unique identifier for this media item.
 
 **medium**  
 A string describing the materials and processes used to create the object.
 
 **objectid**  
-The Museum's numeric unique machine-readable identifier for the object. Note that by appending this id to the url string [http://artmuseum.princeton.edu/collections/objects/](http://artmuseum.princeton.edu/collections/objects/) one can also construct a link to the object's page in the Museum's online collection.  
+The Museum's numeric unique machine-readable identifier for the object. Note that by appending this id to the url string [http://artmuseum.princeton.edu/collections/objects/](http://artmuseum.princeton.edu/collections/objects/) one can also construct a link to the object's page in the Museum's online collection.
 
 **objectnumber**  
 The museum's internal identifier for the object, most commonly expressed as a combination of a four-digit year and various prefixes/suffixes meant to indicate characteristics about the object. In the museum lexicon this is also commonly referred to as an accession number, however loans and other objects not formally accessioned by the Museum receive these numbers as well.
+
+**on_view**
+A boolean value used to determine what is in currently on view at the museum.
 
 **published_date**  
 The date that the object record was last updated.
@@ -274,14 +405,14 @@ A version of the object number that has been algorithmically processed to enable
 Terms from the Museum's own controlled taxonomy that describe the object.
 
 `id` - A unique identifier for the term.  
-`term` - The term.  
+`term` - The term.
 
 **texts**  
 A listing of pieces of interpretive content related to the object that have been produced by the museum in the form of gallery labels, online web features, publications, etc.
 
 `remarks` - A string describing the origin of the text such as an exhibition or a publication.  
 `textentryhtml` - The text itself, including html formatting for online display.  
-`texttype` - The type of text, such as gallery label.  
+`texttype` - The type of text, such as gallery label.
 
 **titles**  
 A listing of titles of the work and information about their origin and intended use. Will include any title described in the displaytitle field.
@@ -296,24 +427,26 @@ A listing of titles of the work and information about their origin and intended 
 
 #### Example
 
-> http://data.artmuseum.princeton.edu/objects/25277/tombstone
+> https://data.artmuseum.princeton.edu/objects/9449/tombstone
 
 #### Response
 
 ```json
-
 {
-  "displaymaker": "Paul Cézanne, French, 1839–1906",
-  "objectnumber": "L.1988.62.54",
-  "creditline": "The Henry and Rose Pearlman Foundation on long term loan to the Princeton University Art Museum",
-  "displaydate": "1886–88",
-  "primaryimage": "http://puam-loris.aws.princeton.edu/loris/L1988-62-54_REC.jp2",
-  "medium": "Pencil",
-  "displaytitle": "Study of Trees",
-  "objectid": 25277,
-  "dimensions": "48.3 x 31.7 cm. (19 x 12 1/2 in.)"
+  "displayculture": null,
+  "displaymaker": "Edgar Degas, 1834–1917; born and died Paris, France",
+  "objectnumber": "x1954-13",
+  "displaydate": "ca. 1899",
+  "creditline": "Bequest of Henry K. Dick, Class of 1909",
+  "primaryimage": [
+    "https://media.artmuseum.princeton.edu/iiif/3/collection/x1954-13"
+  ],
+  "medium": "Pastel with charcoal",
+  "displaytitle": "Dancers",
+  "displayperiod": null,
+  "objectid": 9449,
+  "dimensions": "58.8 x 46.3 cm (23 1/8 x 18 1/4 in.)\r\nframe: 79.5 x 67.3 x 6.3 cm (31 5/16 x 26 1/2 x 2 1/2 in.)"
 }
-
 ```
 
 The tombstone response offers a much simplified subset of the full object record, suitable for situations in which only the basic data needed to identify the object is required.
@@ -324,7 +457,7 @@ The tombstone response offers a much simplified subset of the full object record
 
 In order to facilitate the retrieval of multiple objects, select fields have been exposed as parameters. A multi-object response consists of all object records that match the selected criteria.
 
-Available parameters are:  
+Available parameters are:
 
 - maker (ID)
 - department (Exact Name)
