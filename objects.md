@@ -462,6 +462,7 @@ Available parameters are:
 - maker (ID)
 - department (Exact Name)
 - term (ID)
+- onview (boolean)
 
 #### Example
 
