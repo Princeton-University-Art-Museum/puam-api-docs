@@ -360,15 +360,7 @@ https://data.artmuseum.princeton.edu/objects/32221
   "caption": "The Princeton Painter (name vase), Maya (Codex style), Late Classic Period, 670–750, Central lowlands, Petén, Mirador Basin, Guatemala, Mesoamerica, Uk’ib (drinking cup) depicting a mythological scene. Ceramic with red, cream, and black slip, and remnants of painted stucco; 21.5 x 16.6 cm. Museum purchase, gift of the Hans A. Widenmann, Class of 1918, and Dorothy Widenmann Foundation (y1975-17)",
   "captionhtml": "The Princeton Painter (name vase), Maya (Codex style), Late Classic Period, 670–750, Central lowlands, Petén, Mirador Basin, Guatemala, Mesoamerica, <i>Uk’ib (drinking cup) depicting a mythological scene</i>. Ceramic with red, cream, and black slip, and remnants of painted stucco; 21.5 x 16.6 cm. Museum purchase, gift of the Hans A. Widenmann, Class of 1918, and Dorothy Widenmann Foundation (y1975-17)",
   "published_date": "2026-01-08 11:24:22.759281",
-  "campusart": [
-    {
-      "campuscollections": "false",
-      "campusart": 0,
-      "neighborhood": null,
-      "lat": null,
-      "lon": null
-    }
-  ],
+  "campus_art": false,
   "extended_content": true
 }
 ```
