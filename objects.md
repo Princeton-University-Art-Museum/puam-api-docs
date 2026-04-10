@@ -272,15 +272,7 @@ Contains information describing the objects in the Princeton University Art Muse
   "caption": "Edgar Degas (1834–1917, born and died Paris, France), Dancers, ca. 1899. Pastel with charcoal; 58.8 x 46.3 cm, 79.5 x 67.3 x 6.3 cm (frame). Bequest of Henry K. Dick, Class of 1909 (x1954-13)",
   "captionhtml": "Edgar Degas (1834–1917, born and died Paris, France), <i>Dancers</i>, ca. 1899. Pastel with charcoal; 58.8 x 46.3 cm, 79.5 x 67.3 x 6.3 cm (frame). Bequest of Henry K. Dick, Class of 1909 (x1954-13)",
   "published_date": "2026-01-08 10:13:55.123063",
-  "campusart": [
-    {
-      "campuscollections": "false",
-      "campusart": 0,
-      "neighborhood": null,
-      "lat": null,
-      "lon": null
-    }
-  ],
+  "campus_art": false
   "extended_content": false
 }
 ```
